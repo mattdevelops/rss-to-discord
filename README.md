@@ -8,7 +8,7 @@ Recommended to be run on a ([Ubuntu](https://ubuntu.com/download/server)) server
 1. Ensure you have [Python 3](https://www.python.org/downloads/) installed on your server of choice
 2. Install the requirements for this package using `pip install -r requirements.txt`
 3. Copy `default-config.json` to `config.json` and add the appropriate blank values
-4. Using your process manager, setup main.py to run. I recommend using PM2 so it would be `pm2 start rss-to-discord --interpreter python3 main.py` 
+4. Using your process manager, setup main.py to run. I recommend using PM2 so it would be `pm2 start main.py --name=rss-to-discord --interpreter=python3` 
 5. Complete! Every time the RSS feed updates, the latest post will be sent to the Discord webhook
 
 ### Example usage
