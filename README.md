@@ -1,3 +1,6 @@
+# Advisory - Do not use
+This program is broken (95% sure). I need to fix it when I get some spare time but that time is not now.
+
 ## RSS Feed to Discord webhook
 
 Python program that looks up and refreshes a RSS feed every *x* amount of seconds where *x* defined by user.
